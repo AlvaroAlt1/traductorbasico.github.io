@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+    
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #da340bb7;
+    margin-bottom: 18px;
+    font-size: 27px;    
+    font-weight: bold;
+}
+h3 {
+    color: #2b2020b7;
+    margin-bottom: 18px;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a50000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f3ae2e;
+}
+
+.entrada {
+    color: #a00404;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.correcion {
+    color: #199700;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.traduccion {
+    color: #e49400;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
